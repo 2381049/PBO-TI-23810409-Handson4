@@ -11,6 +11,7 @@ public class ContohOverLoading {
     // Method untuk menghitung luas lingkarang
     public static double hitungLuas(double jarijari, boolean isLingkaran) { // Parameter tambahan untuk membedakan
         if (isLingkaran) {
+            return Math.PI * jarijari * jarijari;
         } else {
             return 0;
         }
@@ -25,7 +26,5 @@ public class ContohOverLoading {
 
         double luasLingkaran = hitungLuas(3, true);
         System.out.println("Luas Lingkaran: " + luasLingkaran);
-
-
     }
 }
