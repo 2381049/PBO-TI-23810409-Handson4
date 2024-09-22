@@ -1,5 +1,5 @@
 public class ContohOverLoading {
-    public static double hitungLuas(double sisi){
+    public static double hitungLuas(double sisi) {
         return sisi * sisi;
     }
 
@@ -10,18 +10,22 @@ public class ContohOverLoading {
 
     // Method untuk menghitung luas lingkarang
     public static double hitungLuas(double jarijari, boolean isLingkaran) { // Parameter tambahan untuk membedakan
-        if (isLingkaran) {(isLingkaran) {
+        if (isLingkaran) {
         } else {
             return 0;
         }
     }
+
     public static void main(String[] args) {
-            double luasPersegi = hitungLuas(5);
-            System.out.println("Luas Persegi: " + luasPersegi);
+        double luasPersegi = hitungLuas(5);
+        System.out.println("Luas Persegi: " + luasPersegi);
 
-            double luasPersegiPanjang = hitungLuas(4,6);
-            System.out.println("Luas Persegi: " + luasPersegiPanjang);
+        double luasPersegiPanjang = hitungLuas(4, 6);
+        System.out.println("Luas Persegi: " + luasPersegiPanjang);
 
-            double luasLingkaran = hitungLuas(3,true);
+        double luasLingkaran = hitungLuas(3, true);
+        System.out.println("Luas Lingkaran: " + luasLingkaran);
+
 
     }
+}

@@ -1,4 +1,4 @@
-public class contohParameterMethod {
+public class ContohParameterMethod {
 
     // Method dengan satu paratmeter
     public static int kaliDua(int angka) {
